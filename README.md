@@ -51,4 +51,3 @@ Currently, the focus is on materials from the **Building with the Claude API** c
 - Continue adding files from other Anthropic Academy courses.
 - Document key learnings and experiments.
 - Build small projects to reinforce Claude API concepts.
-```
