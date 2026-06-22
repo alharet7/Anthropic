@@ -1,0 +1,11 @@
+[
+    {
+        "task": "Write a Python function that extracts the AWS region from an S3 bucket URI in the format 's3://bucket-name/key'. The function should return the region if it can be determined from the bucket name pattern, otherwise return 'us-east-1' as default."
+    },
+    {
+        "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-data-bucket'."
+    },
+    {
+        "task": "Write a regular expression that matches valid AWS IAM role ARNs in the format 'arn:aws:iam::123456789012:role/role-name' and captures the account ID and role name separately."
+    }
+]
