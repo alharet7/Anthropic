@@ -1,11 +1,17 @@
 [
-    {
-        "task": "Write a Python function that extracts the AWS region from an S3 bucket URI in the format 's3://bucket-name/key'. The function should return the region if it can be determined from the bucket name pattern, otherwise return 'us-east-1' as default."
-    },
-    {
-        "task": "Create a JSON CloudFormation template snippet that defines an AWS IAM policy allowing read-only access to a specific S3 bucket named 'my-data-bucket'."
-    },
-    {
-        "task": "Write a regular expression that matches valid AWS IAM role ARNs in the format 'arn:aws:iam::123456789012:role/role-name' and captures the account ID and role name separately."
-    }
+  {
+    "task": "Create a JSON configuration file for an AWS Lambda function that processes S3 events. The configuration should include the function name, runtime, IAM role ARN, timeout, and memory allocation.",
+    "format": "json",
+    "solution_criteria": "Valid JSON structure with required Lambda configuration keys (FunctionName, Runtime, Role, Timeout, MemorySize), proper data types, and realistic AWS values"
+  },
+  {
+    "task": "Write a Python function that takes an AWS S3 object key as input and returns True if the object is a valid log file (ends with .log or .txt extensions), False otherwise.",
+    "format": "python",
+    "solution_criteria": "Function correctly identifies valid log file extensions, handles edge cases (uppercase extensions, no extension), and returns boolean values"
+  },
+  {
+    "task": "Create a regex pattern that matches valid AWS IAM role ARNs in the format: arn:aws:iam::123456789012:role/RoleName",
+    "format": "regex",
+    "solution_criteria": "Pattern correctly validates ARN structure including 'arn:aws:iam::', 12-digit account ID, 'role/', and alphanumeric role names with hyphens and underscores allowed"
+  }
 ]
